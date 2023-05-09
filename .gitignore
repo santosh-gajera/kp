@@ -1,0 +1,26 @@
+# Composer
+composer.lock
+vendor/
+
+# Env
+.env
+
+# Mac nonsense
+.DS_Store
+*.DS_Store
+
+# VS Code
+.vscode/
+
+# ACF
+acf-json/
+
+# CSS (Compiles on deploy)
+css/main.css
+
+# Node (Only required for DEV)
+/node_modules/
+package-lock.json
+
+# GitHub Actions
+.github/

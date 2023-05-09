@@ -1,0 +1,36 @@
+{
+    "name": "sobold/kapow",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Kapow\\": [
+                "app/"
+            ]
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "8.1.0"
+        }
+    },
+    "authors": [
+        {
+            "name": "sobold-dev",
+            "email": "dev@soboldltd.com"
+        }
+    ],
+    "require": {
+        "mpdf/mpdf": "^8.0",
+        "laminas/laminas-escaper": ">2.0",
+        "phpoffice/phpword": "^0.18.3",
+        "guzzlehttp/guzzle": "^7.4",
+        "aws/aws-sdk-php": "^3.225",
+        "vlucas/phpdotenv": "^5.4",
+        "scssphp/scssphp": "^1.11",
+        "firebase/php-jwt": "^6.3",
+        "mikehaertl/phpwkhtmltopdf": "^2.5"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.7"
+    }
+}

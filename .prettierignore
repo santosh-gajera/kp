@@ -1,0 +1,16 @@
+.github
+.husky
+css
+memberpress
+vendor
+dist
+node_modules
+.env.local
+.env
+.eslintrc.json
+.prettierignore
+.prettierrc
+commitlint.config.cts
+package.json
+package-lock.json
+phpcs.xml
